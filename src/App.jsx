@@ -6,6 +6,7 @@ import LobbyPage from "./pages/LobbyPage";
 import BoothPage from "./pages/BoothPage";
 import FairDetailsPage from "./pages/FairDetailsPage";
 import UserDashboardPage from "./pages/UserDashboardPage";
+import ChatPage from "./pages/ChatPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/fairs" element={<FairsListingPage />} />
       <Route path="/dashboard" element={<UserDashboardPage />} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/chat" element={<ChatPage />} />
       <Route path="/lobby" element={<LobbyPage />} />
       <Route path="/booth" element={<BoothPage />} />
       <Route path="/fair-details" element={<FairDetailsPage />} />
